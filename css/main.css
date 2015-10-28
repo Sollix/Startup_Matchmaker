@@ -1,0 +1,24 @@
+/* Global Overrides aka Dave's recommended hacks */
+
+* {
+    box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+
+/* Author's custom styles */
+
+
+
+/* Background hint from Dave */
+
+body{
+	background: url(../images/coworking.jpg) no-repeat;
+}
