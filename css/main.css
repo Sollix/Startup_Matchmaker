@@ -1,8 +1,5 @@
 /* Global Overrides aka Dave's recommended hacks */
 
-/** {
-    box-sizing: border-box;
-}*/
 
 .clearfix:before,
 .clearfix:after {
@@ -14,14 +11,14 @@
 }
 
 /* Body */
-
-body {
+#all {
 	background: url(../images/coworking.jpg) no-repeat;
+	box-sizing: border-box;
 }
 
-/*Temporary boxen for everything!*/
-.create-profile, .start, footer {
-	border: 3px solid black;
+/*Global Stuff*/
+a {
+	text-decoration: none;
 }
 
 /* Header */
@@ -29,7 +26,6 @@ header {
 	background-color: #3b3a3a;
 	color: #ffffff;
 	width: 100%;
-	height: auto;
 	margin: 0;
 	border-bottom: 5px solid #fbd334;
 }
@@ -51,7 +47,6 @@ nav a {
 	font-family: Oswald;
 	font-weight: 300;
 	color: #ffffff;
-	text-decoration: none;
 	margin-right: 1.25em;
 }
 nav .bold {
@@ -68,4 +63,50 @@ nav .bold {
 	font-style: italic;
 	border: 1px solid #aaaaaa;
 	clear: left;
+}
+
+/*main*/
+.main {
+	width: 100%;
+	padding: 3em 0;
+}
+/*Create Profile*/
+.create-profile {
+	width: 300px;
+	background-color: rgba(255, 255, 255, 0.50);
+}
+/*start*/
+.start-options {
+	width: 100%;
+	background-color: #ffffff;
+	margin: 0;
+	padding: 1.5em .5em 1.5em .5em;
+}
+.start {
+	width: 32%;
+	float: left;
+	margin: 0 0.5%;
+	padding: 0.6em 0 0.5em 0;
+	border-right: 1px solid #d8d8d8;
+}
+.start a {
+	background-color: #e1ebe6;
+	font-family: Oswald;
+	color: #000000;
+	font-weight: 700;
+	padding: 1em;
+	border-radius: .2em;
+	text-transform: uppercase;
+	display: inline-block;
+	width: 88.65%;
+	text-align: center;
+}
+/*Footer*/
+footer {
+	width: 100%;
+	background-color: #3b3a3a;
+	color: #e0e0e0;
+	padding: .005em 2em;
+	clear: both;
+	font-family: source-sans-pro;
 }
