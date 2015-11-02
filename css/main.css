@@ -72,9 +72,9 @@ nav .bold {
 }
 /*Create Profile*/
 .create-profile {
-	width: 300px;
+	width: 350px;
 	background-color: rgba(255, 255, 255, 0.50);
-	padding: 1em 3em 2em 2em;
+	padding: 1em 4em 2em 3em;
 	margin: 2em 2em 4em 0;
 	float: right;
 	-webkit-box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.75);
@@ -84,21 +84,17 @@ nav .bold {
 .create-profile h2 {
 	font-family: Oswald;
 	font-weight: 700;
+	font-size: 2em;
 }
 
 .create-profile p {
 	font-family: Oswald;
 	font-weight: 400;
+	font-size: 1.1em;
 }
 .create-profile a {
 	background-color: #fa4542;
 	color: #fff;
-	font-family: Oswald;
-	font-weight: 700;
-	padding: .5em;
-	border-radius: .2em;
-	text-transform: uppercase;
-	text-align: center;
 	display: block;
 	border-bottom: 2px solid #c73634;
 	width: 100%;
@@ -134,17 +130,10 @@ nav .bold {
 }
 .start a {
 	background-color: #e1ebe6;
-	font-family: Oswald;
 	color: #000000;
-	font-weight: 700;
-	padding: .8em;
-	border-radius: .2em;
-	text-transform: uppercase;
 	display: inline-block;
-	width: 92.75%;
-	text-align: center;
 	border-bottom: 2px solid #b3bbb7;
-	font-size: 1.2em;
+	width: 91%;
 }
 /*Footer*/
 footer {
@@ -154,4 +143,15 @@ footer {
 	padding: .005em 2em;
 	clear: both;
 	font-family: source-sans-pro;
+}
+
+/* reusable elements */
+.button-style {
+	font-family: Oswald;
+	font-weight: 700;
+	font-size: 1.2em;
+	padding: .8em;
+	border-radius: .2em;
+	text-transform: uppercase;
+	text-align: center;
 }
