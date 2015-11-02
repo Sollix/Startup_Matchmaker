@@ -75,7 +75,7 @@ nav .bold {
 	width: 300px;
 	background-color: rgba(255, 255, 255, 0.50);
 	padding: 1em 3em 2em 2em;
-	margin: 0 2em 3em 0;
+	margin: 2em 2em 4em 0;
 	float: right;
 	-webkit-box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.75);
@@ -112,12 +112,13 @@ nav .bold {
 	clear: both;
 }
 .start {
-	max-width: 30%;
+	max-width: 33%;
 	float: left;
-	margin: 0 1%;
-	/*	padding: 0.6em 0.9em 0.5em 0;*/
-	padding-right: 1%;
 	border-right: 1px solid #d8d8d8;
+	box-sizing: border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	padding: 20px;
 }
 .start:last-of-type {
 	border-right: none;
@@ -125,23 +126,25 @@ nav .bold {
 .start h2 {
 	font-family: Merriweather;
 	font-weight: 700;
+	margin-top:0px;
 }
 .start p {
 	font-family: source-sans-pro;
-	font-size: 1em;
+	font-size: 1.3em;
 }
 .start a {
 	background-color: #e1ebe6;
 	font-family: Oswald;
 	color: #000000;
 	font-weight: 700;
-	padding: .5em;
+	padding: .8em;
 	border-radius: .2em;
 	text-transform: uppercase;
 	display: inline-block;
 	width: 92.75%;
 	text-align: center;
 	border-bottom: 2px solid #b3bbb7;
+	font-size: 1.2em;
 }
 /*Footer*/
 footer {
