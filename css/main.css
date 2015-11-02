@@ -61,7 +61,7 @@ nav .bold {
 	font-family: Merriweather;
 	font-weight: 700;
 	font-style: italic;
-	border: 1px solid #aaaaaa;
+	border: 1px solid #aaa;
 	clear: left;
 }
 
@@ -74,32 +74,74 @@ nav .bold {
 .create-profile {
 	width: 300px;
 	background-color: rgba(255, 255, 255, 0.50);
+	padding: 1em 3em 2em 2em;
+	margin: 0 2em 3em 0;
+	float: right;
+	-webkit-box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.75);
+}
+.create-profile h2 {
+	font-family: Oswald;
+	font-weight: 700;
+}
+
+.create-profile p {
+	font-family: Oswald;
+	font-weight: 400;
+}
+.create-profile a {
+	background-color: #fa4542;
+	color: #fff;
+	font-family: Oswald;
+	font-weight: 700;
+	padding: .5em;
+	border-radius: .2em;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+	border-bottom: 2px solid #c73634;
+	width: 100%;
 }
 /*start*/
 .start-options {
 	width: 100%;
-	background-color: #ffffff;
+	background-color: #fff;
 	margin: 0;
 	padding: 1.5em .5em 1.5em .5em;
+	clear: both;
 }
 .start {
-	width: 32%;
+	max-width: 30%;
 	float: left;
-	margin: 0 0.5%;
-	padding: 0.6em 0 0.5em 0;
+	margin: 0 1%;
+	/*	padding: 0.6em 0.9em 0.5em 0;*/
+	padding-right: 1%;
 	border-right: 1px solid #d8d8d8;
+}
+.start:last-of-type {
+	border-right: none;
+}
+.start h2 {
+	font-family: Merriweather;
+	font-weight: 700;
+}
+.start p {
+	font-family: source-sans-pro;
+	font-size: 1em;
 }
 .start a {
 	background-color: #e1ebe6;
 	font-family: Oswald;
 	color: #000000;
 	font-weight: 700;
-	padding: 1em;
+	padding: .5em;
 	border-radius: .2em;
 	text-transform: uppercase;
 	display: inline-block;
-	width: 88.65%;
+	width: 92.75%;
 	text-align: center;
+	border-bottom: 2px solid #b3bbb7;
 }
 /*Footer*/
 footer {
